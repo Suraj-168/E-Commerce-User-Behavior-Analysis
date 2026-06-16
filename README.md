@@ -4,7 +4,12 @@
 Analysis of user behavior on an e-commerce platform, tracing the full conversion funnel from page view through purchase to identify drop-off points, traffic source performance, and revenue drivers. Built using MySQL and Excel, with results cross-validated between both tools.
 
 ## Dataset
-A sample dataset of ~9,400 events across 5,000 users, covering event type (page_view, add_to_cart, checkout_start, payment_info, purchase), traffic source (email, organic, paid_ads, social), product ID, purchase amount, and timestamp.
+About 9,400 events from 5,000 users, covering what action the user took (page view, add to cart, checkout, payment, purchase), where they came from (email, organic, paid ads, social), which product they viewed, how much they paid, and when it happened.
+
+## Data Cleaning
+- The amount column was empty for every event except purchases. Filled these empty values with 0, since only a completed purchase actually has a price, and leaving them blank would have caused errors when adding up revenue.
+- The event timestamps included very precise fractions of a second, which wasn't needed and made time calculations messier. Cleaned this up so the timestamps could be used properly to measure how long users took between each step.
+- Checked the data for duplicate entries and inconsistent labels (like different spellings of the same traffic source). Found none, so no rows had to be removed.
 
 ## Tools Used
 - MySQL
@@ -34,3 +39,4 @@ A sample dataset of ~9,400 events across 5,000 users, covering event type (page_
 ## Files
 - SQL_Queries.sql
 - User_Events_Analysis.xlsx
+- user_events.csv (raw data)
