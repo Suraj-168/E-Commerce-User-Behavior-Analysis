@@ -57,9 +57,9 @@ About 9,400 events from 5,000 users, covering what action the user took (page vi
 ![Contribution to Revenue by Product](Images/Contribution%20To%20Revenue%20Product%20Wise.png)
 ![Contribution to Purchases by Product](Images/Contribution%20To%20Purchase%20Product%20Wise.png)
 
-## How to Use
-1. Open User_Events_Analysis.xlsx to review the Pivot Tables and pre-built conversion/revenue breakdowns.
-2. Run the queries in SQL_Queries.sql against a MySQL instance with a matching user_events table to reproduce the results.
+## How to Use This Project
+1. Open User_Events_Analysis.xlsx to see the Pivot Tables and the conversion/revenue breakdowns already built in.
+2. Run the queries in SQL_Queries.sql on a MySQL database with a matching user_events table to get the same results.
 
 ## Files
 - SQL_Queries.sql
