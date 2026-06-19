@@ -95,6 +95,13 @@ The dashboard includes:
 - **Revenue by Product** — All six products contribute roughly equally, ranging from 15% 
   to 18%
 
+### Traffic Source Analysis
+![Traffic Source Pivot Table](Images/Traffic%20Pivot%20Table.png)
+![Traffic Source User Analysis](Images/Traffic%20Source%20%20User%20Analysis.png)
+![Traffic Source Revenue Analysis](Images/Traffic%20Source%20Revenue%20Analysis.png)
+![Contribution to Revenue by Traffic Source](Images/Contribution%20To%20Revenue%20Traffic%20Source%20Wise.png)
+![Contribution to Purchases by Traffic Source](Images/Contribution%20To%20Purchase%20Traffic%20Source%20Wise.png)
+
 ### Product Analysis
 ![Product Pivot Table](Images/Product%20Pivot%20Table%20.png)
 ![Product Wise User Analysis](Images/Product%20Wise%20User%20Analysis.png)
